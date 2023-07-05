@@ -1,0 +1,6 @@
+* El intérprete lee, en principio, archivos .html pero también puede leer .txt si se elige la opción "Todos los archivos" en la ventana de "Abrir archivos".
+* Algunos archivos pueden tener problemas al ser ejecutados en el parser, generando errores de sintaxis en líneas que tienen acentos. En caso de error probar copiar el 
+código y pegarlo en un nuevo archivo. En particular, el programa Notepad++ resulta útil, ya que tiene una opción para cambiar la codificación. Hemos notado que si en el
+menú se elige la opción codificación --> juego de caracteres --> Europeo Occidental --> ISO 8859-1 y se lo guarda, al abrirlo en el parser ya no se generan errores. Al
+copiar y pegar en el modo "ingreso directo" también se va este error.
+* Una vez analizado el código, el programa se cierra presionando la tecla Enter.
